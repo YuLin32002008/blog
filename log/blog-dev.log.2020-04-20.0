@@ -1,0 +1,399 @@
+2020-04-20 23:24:14.149  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Starting BlogApplication on DESKTOP-0B7J60F with PID 8296 (E:\WrokSpace\IdeaProjects\blog\target\classes started by yulin in E:\WrokSpace\IdeaProjects\blog)
+2020-04-20 23:24:14.155 DEBUG 8296 --- [restartedMain] com.george.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 23:24:14.155  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : The following profiles are active: dev
+2020-04-20 23:24:14.198  INFO 8296 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\yulin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/yulin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/yulin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/yulin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/yulin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/yulin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/yulin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-20 23:24:14.198  INFO 8296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-20 23:24:14.198  INFO 8296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-20 23:24:14.903  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-20 23:24:14.989  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76ms. Found 2 JPA repository interfaces.
+2020-04-20 23:24:15.436 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:24:15.599 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:24:15.787  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-20 23:24:15.800 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:24:15.801  INFO 8296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 23:24:15.802  INFO 8296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-20 23:24:16.023  INFO 8296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 23:24:16.023  INFO 8296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1824 ms
+2020-04-20 23:24:16.262  INFO 8296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-20 23:24:16.353  INFO 8296 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-20 23:24:16.543  INFO 8296 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-20 23:24:16.673  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-20 23:24:16.674  WARN 8296 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-20 23:24:16.827  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-20 23:24:16.847  INFO 8296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-20 23:24:17.882  INFO 8296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-20 23:24:17.892  INFO 8296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:24:17.949  INFO 8296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 23:24:18.448  WARN 8296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-20 23:24:18.644  INFO 8296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:24:18.746  INFO 8296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 23:24:19.238  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-20 23:24:19.240  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Started BlogApplication in 5.644 seconds (JVM running for 8.528)
+2020-04-20 23:24:19.397  INFO 8296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-20 23:24:19.397  INFO 8296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-20 23:24:19.408  INFO 8296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-04-20 23:34:20.527  INFO 8296 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:34:20.528  INFO 8296 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:34:20.532  INFO 8296 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-20 23:34:20.539  INFO 8296 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-20 23:34:22.205  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Starting BlogApplication on DESKTOP-0B7J60F with PID 8296 (E:\WrokSpace\IdeaProjects\blog\target\classes started by yulin in E:\WrokSpace\IdeaProjects\blog)
+2020-04-20 23:34:22.205 DEBUG 8296 --- [restartedMain] com.george.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 23:34:22.205  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : The following profiles are active: dev
+2020-04-20 23:34:22.400  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-20 23:34:22.423  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 2 JPA repository interfaces.
+2020-04-20 23:34:22.481 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:34:22.540 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:34:22.716  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-20 23:34:22.717 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:34:22.717  INFO 8296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 23:34:22.717  INFO 8296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-20 23:34:22.774  INFO 8296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 23:34:22.774  INFO 8296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 567 ms
+2020-04-20 23:34:22.843  INFO 8296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-20 23:34:22.846  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-04-20 23:34:22.846  WARN 8296 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-20 23:34:22.864  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-04-20 23:34:22.864  INFO 8296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-20 23:34:23.075  INFO 8296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-20 23:34:23.075  INFO 8296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:34:23.112  INFO 8296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 23:34:23.335  WARN 8296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-20 23:34:23.459  INFO 8296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:34:23.497  INFO 8296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 23:34:23.802  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-20 23:34:23.803  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Started BlogApplication in 1.642 seconds (JVM running for 613.091)
+2020-04-20 23:34:23.804  INFO 8296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-20 23:34:36.583  INFO 8296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-20 23:34:36.585  INFO 8296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-20 23:34:36.592  INFO 8296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-20 23:36:02.117  INFO 8296 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:36:02.117  INFO 8296 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:36:02.118  INFO 8296 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-04-20 23:36:02.123  INFO 8296 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-04-20 23:36:03.511  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Starting BlogApplication on DESKTOP-0B7J60F with PID 8296 (E:\WrokSpace\IdeaProjects\blog\target\classes started by yulin in E:\WrokSpace\IdeaProjects\blog)
+2020-04-20 23:36:03.512 DEBUG 8296 --- [restartedMain] com.george.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 23:36:03.512  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : The following profiles are active: dev
+2020-04-20 23:36:03.658  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-20 23:36:03.658  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2020-04-20 23:36:03.697 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:36:03.713 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:36:03.871  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-20 23:36:03.871 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:36:03.871  INFO 8296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 23:36:03.871  INFO 8296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-20 23:36:03.919  INFO 8296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 23:36:03.919  INFO 8296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 405 ms
+2020-04-20 23:36:03.953  INFO 8296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-20 23:36:03.957  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-04-20 23:36:03.957  WARN 8296 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-20 23:36:03.964  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-04-20 23:36:03.964  INFO 8296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-20 23:36:04.012  INFO 8296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-20 23:36:04.012  INFO 8296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:36:04.022  INFO 8296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 23:36:04.038  WARN 8296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-20 23:36:04.076  INFO 8296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:36:04.087  INFO 8296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 23:36:04.332  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-20 23:36:04.332  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Started BlogApplication in 0.862 seconds (JVM running for 713.62)
+2020-04-20 23:36:04.333  INFO 8296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-20 23:36:06.067  INFO 8296 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:36:06.068  INFO 8296 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:36:06.069  INFO 8296 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-04-20 23:36:06.078  INFO 8296 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-04-20 23:36:07.792  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Starting BlogApplication on DESKTOP-0B7J60F with PID 8296 (E:\WrokSpace\IdeaProjects\blog\target\classes started by yulin in E:\WrokSpace\IdeaProjects\blog)
+2020-04-20 23:36:07.792 DEBUG 8296 --- [restartedMain] com.george.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 23:36:07.792  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : The following profiles are active: dev
+2020-04-20 23:36:07.974  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-20 23:36:07.993  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 2 JPA repository interfaces.
+2020-04-20 23:36:08.043 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:36:08.096 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:36:08.277  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-20 23:36:08.278 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:36:08.278  INFO 8296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 23:36:08.278  INFO 8296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-20 23:36:08.328  INFO 8296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 23:36:08.329  INFO 8296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 535 ms
+2020-04-20 23:36:08.386  INFO 8296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-20 23:36:08.390  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-04-20 23:36:08.390  WARN 8296 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-20 23:36:08.395  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-04-20 23:36:08.395  INFO 8296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-20 23:36:08.548  INFO 8296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-20 23:36:08.549  INFO 8296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:36:08.581  INFO 8296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 23:36:08.785  WARN 8296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-20 23:36:08.916  INFO 8296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:36:08.953  INFO 8296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 23:36:09.284  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-20 23:36:09.284  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Started BlogApplication in 1.555 seconds (JVM running for 718.572)
+2020-04-20 23:36:09.285  INFO 8296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-20 23:36:09.905  INFO 8296 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-20 23:36:09.906  INFO 8296 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-20 23:36:09.913  INFO 8296 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-20 23:41:07.865  INFO 8296 --- [Thread-33] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:41:07.866  INFO 8296 --- [Thread-33] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:41:07.867  INFO 8296 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-04-20 23:41:07.874  INFO 8296 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-04-20 23:41:09.460  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Starting BlogApplication on DESKTOP-0B7J60F with PID 8296 (E:\WrokSpace\IdeaProjects\blog\target\classes started by yulin in E:\WrokSpace\IdeaProjects\blog)
+2020-04-20 23:41:09.460 DEBUG 8296 --- [restartedMain] com.george.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 23:41:09.460  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : The following profiles are active: dev
+2020-04-20 23:41:09.622  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-20 23:41:09.622  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2020-04-20 23:41:09.674 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:41:09.694 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:41:09.875  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-20 23:41:09.876 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:41:09.876  INFO 8296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 23:41:09.876  INFO 8296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-20 23:41:09.924  INFO 8296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 23:41:09.924  INFO 8296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 463 ms
+2020-04-20 23:41:09.957  INFO 8296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-20 23:41:09.960  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-04-20 23:41:09.960  WARN 8296 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-20 23:41:09.969  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-04-20 23:41:09.969  INFO 8296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-20 23:41:10.015  INFO 8296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-20 23:41:10.015  INFO 8296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:41:10.022  INFO 8296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 23:41:10.038  WARN 8296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-20 23:41:10.077  INFO 8296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:41:10.090  INFO 8296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 23:41:10.321  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-20 23:41:10.322  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Started BlogApplication in 0.905 seconds (JVM running for 1019.609)
+2020-04-20 23:41:10.323  INFO 8296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-20 23:41:12.911  INFO 8296 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:41:12.913  INFO 8296 --- [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:41:12.913  INFO 8296 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-04-20 23:41:12.919  INFO 8296 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-04-20 23:41:14.637  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Starting BlogApplication on DESKTOP-0B7J60F with PID 8296 (E:\WrokSpace\IdeaProjects\blog\target\classes started by yulin in E:\WrokSpace\IdeaProjects\blog)
+2020-04-20 23:41:14.638 DEBUG 8296 --- [restartedMain] com.george.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 23:41:14.638  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : The following profiles are active: dev
+2020-04-20 23:41:14.852  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-20 23:41:14.873  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 2 JPA repository interfaces.
+2020-04-20 23:41:14.933 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:41:14.991 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:41:15.169  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-20 23:41:15.170 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:41:15.170  INFO 8296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 23:41:15.171  INFO 8296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-20 23:41:15.219  INFO 8296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 23:41:15.220  INFO 8296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 579 ms
+2020-04-20 23:41:15.285  INFO 8296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-20 23:41:15.289  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-04-20 23:41:15.289  WARN 8296 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-20 23:41:15.294  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-04-20 23:41:15.294  INFO 8296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-20 23:41:15.447  INFO 8296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-20 23:41:15.447  INFO 8296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:41:15.483  INFO 8296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 23:41:15.698  WARN 8296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-20 23:41:15.829  INFO 8296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:41:15.865  INFO 8296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 23:41:16.199  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-20 23:41:16.200  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Started BlogApplication in 1.608 seconds (JVM running for 1025.488)
+2020-04-20 23:41:16.201  INFO 8296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-20 23:41:20.053  INFO 8296 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-20 23:41:20.054  INFO 8296 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-20 23:41:20.060  INFO 8296 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-20 23:55:25.462  INFO 8296 --- [Thread-43] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:55:25.462  INFO 8296 --- [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:55:25.463  INFO 8296 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-04-20 23:55:25.468  INFO 8296 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-04-20 23:55:26.918  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Starting BlogApplication on DESKTOP-0B7J60F with PID 8296 (E:\WrokSpace\IdeaProjects\blog\target\classes started by yulin in E:\WrokSpace\IdeaProjects\blog)
+2020-04-20 23:55:26.918 DEBUG 8296 --- [restartedMain] com.george.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 23:55:26.918  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : The following profiles are active: dev
+2020-04-20 23:55:27.065  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-20 23:55:27.065  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2020-04-20 23:55:27.100 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:55:27.115 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:55:27.327  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-20 23:55:27.328 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:55:27.328  INFO 8296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 23:55:27.329  INFO 8296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-20 23:55:27.378  INFO 8296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 23:55:27.378  INFO 8296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 458 ms
+2020-04-20 23:55:27.409  INFO 8296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-20 23:55:27.412  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2020-04-20 23:55:27.412  WARN 8296 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-20 23:55:27.419  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2020-04-20 23:55:27.419  INFO 8296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-20 23:55:27.468  INFO 8296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-20 23:55:27.468  INFO 8296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:55:27.475  INFO 8296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 23:55:27.495  WARN 8296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-20 23:55:27.532  INFO 8296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:55:27.542  INFO 8296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 23:55:27.810  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-20 23:55:27.811  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Started BlogApplication in 0.927 seconds (JVM running for 1877.098)
+2020-04-20 23:55:27.812  INFO 8296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-20 23:55:29.580  INFO 8296 --- [Thread-48] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:55:29.581  INFO 8296 --- [Thread-48] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:55:29.582  INFO 8296 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2020-04-20 23:55:29.588  INFO 8296 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2020-04-20 23:55:31.173  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Starting BlogApplication on DESKTOP-0B7J60F with PID 8296 (E:\WrokSpace\IdeaProjects\blog\target\classes started by yulin in E:\WrokSpace\IdeaProjects\blog)
+2020-04-20 23:55:31.173 DEBUG 8296 --- [restartedMain] com.george.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 23:55:31.173  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : The following profiles are active: dev
+2020-04-20 23:55:31.355  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-20 23:55:31.373  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 2 JPA repository interfaces.
+2020-04-20 23:55:31.434 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:55:31.499 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:55:31.651  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-20 23:55:31.652 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:55:31.652  INFO 8296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 23:55:31.652  INFO 8296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-20 23:55:31.704  INFO 8296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 23:55:31.704  INFO 8296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 529 ms
+2020-04-20 23:55:31.758  INFO 8296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-20 23:55:31.761  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2020-04-20 23:55:31.761  WARN 8296 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-20 23:55:31.766  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2020-04-20 23:55:31.766  INFO 8296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-20 23:55:31.903  INFO 8296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-20 23:55:31.904  INFO 8296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:55:31.936  INFO 8296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 23:55:32.127  WARN 8296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-20 23:55:32.254  INFO 8296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:55:32.289  INFO 8296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 23:55:32.600  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-20 23:55:32.601  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Started BlogApplication in 1.464 seconds (JVM running for 1881.889)
+2020-04-20 23:55:32.602  INFO 8296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-20 23:55:34.124  INFO 8296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-20 23:55:34.125  INFO 8296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-20 23:55:34.134  INFO 8296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-04-20 23:55:36.917 ERROR 8296 --- [http-nio-8080-exec-7] c.g.b.h.ControllerExceptionHandler       : Request URL : http://localhost:8080/admin/types/12/input, Exception: {}
+
+org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null!
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:374)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:257)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:528)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy173.getOne(Unknown Source)
+	at com.george.blog.service.TypeServiceImpl.getType(TypeServiceImpl.java:29)
+	at com.george.blog.service.TypeServiceImpl$$FastClassBySpringCGLIB$$b50bdcf8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.george.blog.service.TypeServiceImpl$$EnhancerBySpringCGLIB$$1b77ef2e.getType(<generated>)
+	at com.george.blog.web.admin.TypeController.editInput(TypeController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: The given id must not be null!
+	at org.springframework.util.Assert.notNull(Assert.java:198)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.getOne(SimpleJpaRepository.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	... 70 common frames omitted
+
+2020-04-20 23:55:36.918  WARN 8296 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null!]
+2020-04-20 23:57:01.450  INFO 8296 --- [Thread-53] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:57:01.450  INFO 8296 --- [Thread-53] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:57:01.452  INFO 8296 --- [Thread-53] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2020-04-20 23:57:01.461  INFO 8296 --- [Thread-53] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2020-04-20 23:57:03.085  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Starting BlogApplication on DESKTOP-0B7J60F with PID 8296 (E:\WrokSpace\IdeaProjects\blog\target\classes started by yulin in E:\WrokSpace\IdeaProjects\blog)
+2020-04-20 23:57:03.086 DEBUG 8296 --- [restartedMain] com.george.blog.BlogApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 23:57:03.086  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : The following profiles are active: dev
+2020-04-20 23:57:03.259  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-20 23:57:03.279  INFO 8296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 2 JPA repository interfaces.
+2020-04-20 23:57:03.326 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:57:03.378 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:57:03.555  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-20 23:57:03.555 ERROR 8296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.1.29] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-04-20 23:57:03.556  INFO 8296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 23:57:03.556  INFO 8296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-20 23:57:03.604  INFO 8296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 23:57:03.604  INFO 8296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 517 ms
+2020-04-20 23:57:03.684  INFO 8296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-20 23:57:03.689  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2020-04-20 23:57:03.689  WARN 8296 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-20 23:57:03.699  INFO 8296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2020-04-20 23:57:03.699  INFO 8296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-20 23:57:03.827  INFO 8296 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-20 23:57:03.827  INFO 8296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-20 23:57:03.856  INFO 8296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 23:57:04.049  WARN 8296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-20 23:57:04.168  INFO 8296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 23:57:04.202  INFO 8296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 23:57:04.507  INFO 8296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-20 23:57:04.508  INFO 8296 --- [restartedMain] com.george.blog.BlogApplication          : Started BlogApplication in 1.457 seconds (JVM running for 1973.795)
+2020-04-20 23:57:04.508  INFO 8296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-20 23:57:04.662  INFO 8296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-20 23:57:04.663  INFO 8296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-20 23:57:04.670  INFO 8296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
